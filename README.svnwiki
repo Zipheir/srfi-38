@@ -27,6 +27,7 @@ support printing results at the REPL with shared structure.
 
 === Changelog
 
+* 0.7 Removed extra, incorrect "license" clause from Chicken egg.
 * 0.6 Ported to Chicken 5
 * 0.4 Small bugfixes, re-introducing the ignore-strings: parameter, supporting #true and #false.
 * 0.3 ...
