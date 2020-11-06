@@ -1,0 +1,39 @@
+[[tags: egg]]
+
+== srfi-38
+
+[[toc:]]
+
+=== Description
+
+A Chicken version of the reference implementation for
+[[http://srfi.schemers.org/srfi-38/srfi-38.html|SRFI-38]], a facility
+for reading and writing objects with shared structure.
+
+=== Author
+
+[[Alex Shinn]], ported to Chicken 5 by Sergey Goldgaber
+
+=== Documentation
+
+See [[http://srfi.schemers.org/srfi-38/srfi-38.html|SRFI-38 document]].
+
+This implementation extends '''write-with-shared-structure''' to accept
+the optional keyword parameter '''#:ignore-strings''', which is true
+will treat strings as normal (nonshared) objects even if repeated.
+
+The utility `make-repl-support-shared-structure' is also provided to
+support printing results at the REPL with shared structure.
+
+=== Changelog
+
+* 0.6 Ported to Chicken 5
+* 0.4 Small bugfixes, re-introducing the ignore-strings: parameter, supporting #true and #false.
+* 0.3 ...
+* 0.2 ...
+* 0.1 Rewrite from scratch by Alex Shinn.
+
+=== License
+
+This code was written by Alex Shinn in 2009 and placed in the
+Public Domain.  All warranties are disclaimed.
