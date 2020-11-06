@@ -1,0 +1,7 @@
+
+(compile -s -O2 -d0 -j srfi-38 srfi-38.scm)
+(compile -s -O2 -d0 srfi-38.import.scm)
+(install-extension
+ 'srfi-38
+ '("srfi-38.so" "srfi-38.import.so")
+ '((version 0.5)))
