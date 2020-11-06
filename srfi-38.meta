@@ -1,9 +1,0 @@
-
-((author "Alex Shinn")
- (synopsis "A Chicken version of the SRFI-38 reference implementation")
- (egg "srfi-38.egg")
- (files "srfi-38.meta" "srfi-38.scm" "srfi-38.release-info" "srfi-38.setup")
- (license "Public Domain")
- (doc-from-wiki)
- (category io)
- )

@@ -1,0 +1,10 @@
+;;; srfi-38.egg -*- Scheme -*- vim: ft=scheme:
+
+((author "Alex Shinn")
+ (maintainer "Sergey Goldgaber")
+ (synopsis "A Chicken version of the SRFI-38 reference implementation")
+ (license "Public Domain")
+ (category io)
+ (test-dependencies test)
+ (license "MIT")
+ (components (extension srfi-38)))
