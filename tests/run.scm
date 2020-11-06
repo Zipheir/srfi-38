@@ -1,7 +1,7 @@
-
-(cond-expand
- (chibi (import (scheme) (chibi test) (srfi 38)))
- (chicken (use chicken test srfi-38)))
+(import scheme)
+(import (chicken base))
+(import srfi-38)
+(import test)
 
 (test-begin "read/write")
 
