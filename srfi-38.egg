@@ -6,5 +6,4 @@
  (license "Public Domain")
  (category io)
  (test-dependencies test)
- (license "MIT")
  (components (extension srfi-38)))
