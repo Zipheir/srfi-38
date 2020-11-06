@@ -11,7 +11,11 @@
   read-with-shared-structure read/ss
   make-repl-support-shared-structure)
 
-(import scheme chicken extras ports)
+(import scheme)
+(import (chicken base))
+(import (chicken keyword))
+(import (chicken port))
+
 
 (define (interesting-object? x)
   (not (or (symbol? x) (number? x) (char? x) (boolean? x) (null? x)
