@@ -1,5 +1,6 @@
 (import scheme)
 (import (chicken base))
+(import (chicken port))
 (import srfi-38)
 (import test)
 
