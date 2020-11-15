@@ -15,7 +15,9 @@
 (import (chicken base))
 (import (chicken keyword))
 (import (chicken port))
+(import (chicken platform))
 
+(register-feature! 'srfi-38)
 
 (define (interesting-object? x)
   (not (or (symbol? x) (number? x) (char? x) (boolean? x) (null? x)
