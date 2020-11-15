@@ -27,8 +27,9 @@ support printing results at the REPL with shared structure.
 
 === Changelog
 
-* 0.7 Removed extra, incorrect "license" clause from Chicken egg.
-* 0.6 Ported to Chicken 5
+* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.8|0.8]] Registered 'srfi-38 feature, and added links to source code in the README
+* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.7|0.7]] Removed extra, incorrect "license" clause from Chicken egg.
+* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.6|0.6]] Ported to Chicken 5
 * 0.4 Small bugfixes, re-introducing the ignore-strings: parameter, supporting #true and #false.
 * 0.3 ...
 * 0.2 ...
