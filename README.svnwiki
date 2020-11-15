@@ -26,7 +26,7 @@ The utility `make-repl-support-shared-structure' is also provided to
 support printing results at the REPL with shared structure.
 
 === Changelog
-
+* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.9|0.9]] Fixed [[https://github.com/diamond-lizard/srfi-38/issues/2][issue 2]]
 * [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.8|0.8]] Registered 'srfi-38 feature, and added links to source code in the README
 * [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.7|0.7]] Removed extra, incorrect "license" clause from Chicken egg.
 * [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.6|0.6]] Ported to Chicken 5
