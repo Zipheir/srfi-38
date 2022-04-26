@@ -1,0 +1,8 @@
+*.import.scm
+*.link
+*.log
+*.o
+install.sh
+*.so
+*.swp
+*.types
