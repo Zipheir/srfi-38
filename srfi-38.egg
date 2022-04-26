@@ -2,7 +2,7 @@
 
 ((author "Alex Shinn")
  (maintainer "Wolfgang Corcoran-Mathe")
- (synopsis "A Chicken version of the SRFI-38 reference implementation")
+ (synopsis "SRFI 38: External representation for data with shared structure")
  (license "Public Domain")
  (category io)
  (test-dependencies test)
