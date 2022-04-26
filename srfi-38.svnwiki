@@ -1,18 +1,21 @@
-[[tags: egg]]
+== SRFI 38: I/O for data with shared structure
 
-== srfi-38
+This egg provides forms for reading and writing data containing
+shared structure.  By using these forms, circular lists and similar
+data can be printed and read reliably, something that is impossible
+in vanilla CHICKEN.
+
+In addition to the SRFI forms, this egg also provides REPL support
+for shared structure I/O via the {{make-repl-support-shared-structure}}
+procedure.
 
 [[toc:]]
 
-=== Description
+== SRFI Description
 
-A Chicken version of the reference implementation for
-[[http://srfi.schemers.org/srfi-38/srfi-38.html|SRFI-38]], a facility
-for reading and writing objects with shared structure.
-
-=== Author
-
-[[Alex Shinn]], ported to Chicken 5 by Sergey Goldgaber
+This page is intended to document the forms exported by this egg.  For
+a full description of SRFI 38, see the
+[[https://srfi.schemers.org/srfi-38/srfi-38.html|SRFI document]].
 
 === Documentation
 
@@ -26,16 +29,38 @@ The utility `make-repl-support-shared-structure' is also provided to
 support printing results at the REPL with shared structure.
 
 === Changelog
-* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.9|0.9]] Fixed [[https://github.com/diamond-lizard/srfi-38/issues/2][issue 2]]
-* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.8|0.8]] Registered 'srfi-38 feature, and added links to source code in the README
-* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.7|0.7]] Removed extra, incorrect "license" clause from Chicken egg.
-* [[https://github.com/diamond-lizard/srfi-38/releases/tag/0.6|0.6]] Ported to Chicken 5
-* 0.4 Small bugfixes, re-introducing the ignore-strings: parameter, supporting #true and #false.
-* 0.3 ...
-* 0.2 ...
-* 0.1 Rewrite from scratch by Alex Shinn.
+
+; 0.9 : Fixed [[https://github.com/diamond-lizard/srfi-38/issues/2|issue 2]]
+; 0.8 : Registered {{srfi-38}} feature.
+; 0.7 : Removed extra, incorrect "license" clause from egg.
+; 0.6 : Ported to CHICKEN 5.
+; 0.4 : Small bugfixes, re-introducing the ignore-strings: parameter, supporting {{#true}} and {{#false}}.
+; 0.3 : ...
+; 0.2 : ...
+; 0.1 : Rewrite from scratch by Alex Shinn.
+
+== About this egg
+
+=== Authors
+
+SRFI 38 was created by Ray Dillinger.
+
+The implementation used in this egg is by
+[[/users/alex-shinn|Alex Shinn]].
+
+Originally ported to CHICKEN 5 by Sergey Goldgaber.
+
+=== Maintainer
+
+Wolfgang Corcoran-Mathe
+
+Contact: {{wcm at sigwinch dot xyzzy minus the zy}}
+
+=== Repository
+
+[[https://github.com/Zipheir/srfi-38|GitHub]]
 
 === License
 
-This code was written by Alex Shinn in 2009 and placed in the
-Public Domain.  All warranties are disclaimed.
+This code was written by Alex Shinn in 2009 and dedicated to the
+public domain.  All warranties are disclaimed.
