@@ -2,7 +2,8 @@
 *.link
 *.log
 *.o
-install.sh
+*.install.sh
+*.build.sh
 *.so
 *.swp
 *.types
