@@ -11,11 +11,11 @@
   read-with-shared-structure read/ss
   make-repl-support-shared-structure)
 
-(import scheme)
-(import (chicken base))
-(import (chicken keyword))
-(import (chicken port))
-(import (chicken platform))
+(import scheme
+        (chicken base)
+        (chicken keyword)
+        (chicken port)
+        (chicken platform))
 
 (register-feature! 'srfi-38)
 
